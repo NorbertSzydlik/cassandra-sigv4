@@ -1,6 +1,6 @@
 # Authorizer for AWS sigv4 and cassandra-cpp-sys (DataStax cpp driver)
 
-It uses `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_SESSION_TOKEN`, `AWS_DEFAULT_REGION`, `AWS_REGION` for configuration.
+It uses `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_SESSION_TOKEN`, `AWS_DEFAULT_REGION`, `AWS_REGION` environment variables for configuration.
 
 Example usage with cassandra-rs (cassandra-cpp crate):
 ```
