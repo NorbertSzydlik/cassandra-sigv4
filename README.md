@@ -36,8 +36,17 @@ async fn main() {
         println!("Keyspace: {}", keyspace_name);
     }
 }
+```
+
+## Before run download certificate
+You can download certifiate from Amazon 
 
 ```
+curl https://certs.secureserver.net/repository/sf-class2-root.crt -O
+```
+
+## Floki
+This repo uses Floki to create build environment.
 
 # Installation
 To install issue the command
