@@ -1,6 +1,6 @@
 [package]
 name = "cassandra-sigv4"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "Apache-2.0"
 license-file = "LICENSE"
@@ -12,6 +12,8 @@ description = "SigV4 authenticator for cassandra-cpp-sys"
 aws-sigv4 = {version = "0.55.2", features = ["bytes"], default-features = false }
 cassandra-cpp-sys = "1.1.0"
 chrono = "0.4.24"
-hex = "0.4.3"
 sha256 = "1.1.3"
 url-escape = "0.1.1"
+
+[dev-dependencies]
+hex = "0.4.3"
