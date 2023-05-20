@@ -52,5 +52,5 @@ This repo uses Floki to create build environment.
 To install issue the command
 
 ```
-cargo add --git https://github.com/NorbertSzydlik/cassandra-sigv4.git --branch main
+cargo add cassandra-sigv4
 ```
