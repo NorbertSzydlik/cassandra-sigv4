@@ -38,3 +38,10 @@ async fn main() {
 }
 
 ```
+
+# Installation
+To install issue the command
+
+```
+cargo add --git https://github.com/NorbertSzydlik/cassandra-sigv4.git --branch main
+```
